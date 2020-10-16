@@ -1,0 +1,140 @@
+/* ------------ Base Styles --------------- */
+* {
+    box-sizing: border-box;
+}
+html {
+    background: #E8E8E8
+}
+
+body {
+    font-family: 'Open Sans', serif;
+    font-size: 12px;
+    line-height: 1.6;
+    background: #F8F8F8;
+    width: 70%;
+    margin: 0 auto;
+    
+
+}
+
+p {
+    font-size: .9rem
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+li {
+    list-style: none;
+}
+
+/* ==========================================
+    Base Layout Styles 
+==============================================*/
+
+/* ------------ Navigation --------------- */
+
+.name {
+    font-family: 'Patua One', serif;
+    color:	#404040;
+    font-weight: 700;
+    font-size: 20;
+    letter-spacing: .05rem;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    padding-top: 15px
+}
+
+
+.main-nav {
+    padding: 0 10px
+    
+}
+
+.main-nav li  {
+    text-align: center;
+
+    
+    
+}
+
+.main-nav a  {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #404040;
+    font-family: 'Patua One', serif;
+    letter-spacing: .03rem;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: .9rem;
+      
+}
+
+.main-nav li {
+    text-align: center;
+    background: #fff;    
+}
+
+
+.primary {
+    text-align: center;
+    
+}
+
+.primary .profile-image {
+    padding-top: 40px;
+    width: 50%;
+    height: auto;
+
+    
+}
+
+.primary p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 350px;
+    color: gray;
+    line-height: 2;
+}
+
+.portfolio {
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+}
+
+.portfolio h2 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#card-img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------ Layout Containers --------------- */
+
+
+
+/* ==========================================
+    Media Queries
+==============================================*/
+
+

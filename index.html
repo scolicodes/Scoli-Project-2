@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua One">
 </head>
 <body>  
-    <header class="main-header"> 
+    <header class="main-header clearfix"> 
         <h1 class="name">Student Name</h1>
         <ul class="main-nav">
             <li><a href="#">HOME</a></li>
@@ -27,9 +27,11 @@
                 and am excited to put all my skills to use!</p>
         </div> <!-- /.primary -->
 
-        <div class="portfolio">
+        <div class="portfolio-heading">
             <h2>PORTFOLIO</h2>
-            
+        </div>
+        
+        <div class="portfolio"> 
             <div class="marketing-page">
                 <img id="card-img" class= "img-1" src="images/portfolio-1.png" alt="Marketing Page">
                 <h2>Marketing Page</h2>
@@ -67,18 +69,19 @@
             </div> <!-- /.calculator -->
         </div> <!-- /.portfolio -->
         
-
-        <div class="contact">
-            <h2>CONTACT</h2>
-            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p>Phone <b>+1(111)555-1234</b></p>
-            <p>Email <b>email@yoursite.com</b></p>
-        </div>
     </div> <!-- /.container -->
+
+    <div class="contact">
+        <h2>CONTACT</h2>
+        <p class="closing-remark">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p class="phone">Phone <b>+1(111)555-1234</b></p>
+        <p class="email">Email <b>email@yoursite.com</b></p>
+    </div>
+
     <footer>
         <ul>
-            <li>Student name</li>
-            <li>BACK TO TOP</li>
+            <li class="student-name">Student name</li>
+            <li class="back-to-top">BACK TO TOP</li>
         </ul>
     </footer>   
 </body>

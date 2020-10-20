@@ -4,21 +4,11 @@
     
 }
 html {
-    background: #E8E8E8
-
-}
-
-body {
-    font-family: 'Open Sans', serif;
-    font-size: 12px;
-    line-height: 1.6;
-    background: #F8F8F8;
-    width: 320px;
-    margin: 0 auto;
-    
+    background: #E8E8E8;
     
 
 }
+
 
 p {
     font-size: .9rem
@@ -34,6 +24,7 @@ li {
     list-style: none;
 }
 
+
 /* ==========================================
     Base Layout Styles 
 ==============================================*/
@@ -45,15 +36,15 @@ li {
     color:	#404040;
     letter-spacing: .05rem;
     text-align: center;
-    margin-bottom: 20px;
-    padding-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 13px;
     margin-top: 0;
     
 }
 
 
 .main-nav {
-    padding: 0 15px;  
+    padding: 0 1rem;  
     margin: 0;
 }
 
@@ -62,7 +53,7 @@ li {
 .main-nav a  {
     text-align: center;
     display: block;
-    padding: 10px;
+    padding: 6px;
     color: #404040;
     font-family: 'Patua One', serif;
     letter-spacing: .03rem;
@@ -83,41 +74,114 @@ li {
     
 }
 
-.primary .profile-image {
+.profile-image {
     padding-top: 40px;
-    width: 50%;
+    width: 60%;
     height: auto;
 
     
 }
 
 .primary p {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 20px;
     max-width: 350px;
-    color: gray;
-    line-height: 2;
+    color: #909090;
+    font-weight: 100;
+    padding-bottom: 30px;
+    
 }
 
-.portfolio {
+.portfolio, .portfolio-heading {
     text-align: center;
     margin: 0 auto;
     background: white;
 }
+.portfolio-heading h2 {
+    padding-top: 52px;
+    padding-bottom: 40px;
+    font-size: .88rem;
+    font-family: 'Patua One', serif;
+    letter-spacing: .03rem;
+    color: #404040;
+    
+  
+}
 
 .portfolio h2 {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    letter-spacing: .03rem;
+    color: #404040;
+    
+}
+
+.portfolio p {
+    margin: 0 auto 30px auto;
+    width: 85%;
+    color: #606060;
+    
+}
+
+.calculator p {
+    width: 80%;
+    padding-bottom: 55px;
 }
 
 #card-img {
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 100%
+    width: 100%;
+    height: 160px;  
+}
+
+.img-1 {
+    margin-top: -12px;
+}
+
+.contact h2 {
+    color: #404040;
+    font-family: 'Patua One', serif;
+    letter-spacing: .03rem;
+    font-size: .9rem;   
+}
+
+.closing-remark {
+    width: 90%;
+    margin: 28px auto 20px auto;
+    
 }
 
 
+
+b {
+    color: #202020;
+    font-weight: 900;
+}
+
+.student-name {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    
+}
+
+.back-to-top {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+}
+
+
+
+
+
+/* Figure out styling inline bold words in footer, review floating and
+fixed/absolute/relative positioning, and finish stying footer in mobile
+layout */
 
 
 
@@ -127,11 +191,76 @@ li {
 
 
 /* ------------ Layout Containers --------------- */
+body {
+    font-family: 'Open Sans', serif;
+    font-size: 12px;
+    line-height: 1.6;
+    background: #F8F8F8;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    
+    
+}
 
+.container {
+    margin: 0 auto;
+    
+}
+
+.contact {
+    margin: 20px auto 100px auto;
+    padding-top: 20px;
+    text-align: center;
+    color: #909090; 
+}
+
+footer {
+    border-top: 1px solid lightgray; 
+    height: 70px;
+    position: relative;
+    color: #404040;
+    font-family: 'Patua One', serif;
+    letter-spacing: .03rem;
+    font-size: .85rem; 
+    margin-top: -30px;
+}
 
 
 /* ==========================================
     Media Queries
 ==============================================*/
+
+@media (min-width: 768px) {
+   
+
+    .main-nav {
+       margin: 0 auto; 
+
+            
+    }
+
+    .main-nav li {
+        float: left;
+        margin-left: 12px;
+        
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+
+
+}
+
+@media (min-width: 1024px) {
+
+
+    
+
+}
 
 

@@ -48,6 +48,10 @@ li {
     margin: 0;
 }
 
+.main-nav-2 {
+    display: none;
+}
+
 
 
 .main-nav a  {
@@ -77,6 +81,7 @@ li {
 .profile-image {
     padding-top: 40px;
     width: 60%;
+    max-width: 340px;
     height: auto;
 
     
@@ -84,9 +89,9 @@ li {
 
 .primary p {
     width: 85%;
+    max-width: 500px;
     margin: 0 auto;
     margin-top: 20px;
-    max-width: 350px;
     color: #909090;
     font-weight: 100;
     padding-bottom: 30px;
@@ -98,6 +103,11 @@ li {
     margin: 0 auto;
     background: white;
 }
+
+.portfolio-heading h2 {
+    margin-bottom: 0;   
+}
+
 .portfolio-heading h2 {
     padding-top: 52px;
     padding-bottom: 40px;
@@ -122,6 +132,7 @@ li {
 .portfolio p {
     margin: 0 auto 30px auto;
     width: 85%;
+    max-width: 500px;
     color: #606060;
     
 }
@@ -135,7 +146,8 @@ li {
     padding-left: 1rem;
     padding-right: 1rem;
     width: 100%;
-    height: 350px;  
+    max-width: 500px;
+    height: 175px;  
 }
 
 .img-1 {
@@ -179,12 +191,6 @@ b {
 
 
 
-/* Figure out styling inline bold words in footer, review floating and
-fixed/absolute/relative positioning, and finish stying footer in mobile
-layout */
-
-
-
 
 
 
@@ -208,7 +214,7 @@ body {
 }
 
 .contact {
-    margin: 20px auto 100px auto;
+    margin: 20px auto 80px auto;
     padding-top: 20px;
     text-align: center;
     color: #909090; 
@@ -222,7 +228,8 @@ footer {
     font-family: 'Patua One', serif;
     letter-spacing: .03rem;
     font-size: .85rem; 
-    margin-top: -30px;
+    margin: -30px 20px 0 20px;
+    
 }
 
 
@@ -233,15 +240,26 @@ footer {
 @media (min-width: 768px) {
    
 
+    .name {
+        margin-bottom: 0;
+   
+    }
+
     .main-nav {
-       margin: 0 auto; 
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
 
             
     }
 
     .main-nav li {
-        float: left;
-        margin-left: 12px;
+        display: inline-block;
+        margin-right: 15px;
+        padding-right: 12px;
+        padding-left: 12px;
+        background: none;
+        
         
     }
 
@@ -251,12 +269,155 @@ footer {
         clear: both;
     }
 
+    .profile-image {
+        float: right;
+        width: 45%;
+        max-width: none;
+        padding-top: 0;
+        margin-right: 30px;
+        margin-bottom: 30px;
 
+    }
+
+    .primary p {
+        float: left;
+        width: 45%;
+        margin-top: 0px;
+        padding-bottom: 0;
+        text-align: left;
+        margin-left: 30px;
+        line-height: 3;
+    
+
+    }
+
+    .marketing-page, .travel-app, .photo-gallery {
+        width: 50%;
+        float: left;
+        
+        
+        
+        
+
+    }
+
+    .search-page, .map, .calculator {
+        width: 50%;
+        float: right;
+    }
+
+    .search-page, .map, .calculator, .marketing-page, .travel-app, .photo-gallery {
+        min-height: 400px;
+    } 
+
+    #card-img {
+        height: 40%;
+        margin-top: 0;
+        padding: 0 10px;
+        max-width: none;
+    }
+
+    .calculator p {
+        padding: 0;
+        margin: 0 28.813px 30px 28.797px;
+
+
+    }
+
+    .contact {
+        width: 70%;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .main-nav-2 {
+        float: right;
+        display: inline-block;
+        margin: 10px 0 0 0;
+        color: #404040;
+        
+    }
+
+    .main-nav-2 li {
+        margin-right: 15px;
+        float: left;
+        display: inline-block;
+        
+
+        
+    }
+
+    .main-nav-2 a {
+        color: #404040;
+        font-family: 'Patua One', serif;
+        letter-spacing: .03rem;
+        font-size: .85rem; 
+    }
+
+    footer {
+       height: 100px; 
+        
+    }
+
+    .student-name {
+        float: left;
+        color: #404040;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+/* Figure out why travel app image goes out of place at 819px, Style footer and finish project */
 
 
 }
 
 @media (min-width: 1024px) {
+
+    .name {
+        float: left;
+        margin: 30px 0 0 30px;
+        padding-top: 0;
+
+        
+   
+    }
+
+    .main-nav {
+        float: right;
+        margin-top: 30px;
+      
+
+            
+    }
+
+    .marketing-page, .map  {
+        width: 27%;
+        float: left;
+
+    }
+
+    .search-page, .photo-gallery {
+
+        width: 27%;
+
+
+    }
+
+     .calculator, .travel-app {
+        width: 27%;
+        float: right;
+
+    }
+
+
+   
+
+   
+
+
+
 
 
     

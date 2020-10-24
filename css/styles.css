@@ -6,6 +6,7 @@
 html {
     background: #E8E8E8;
     
+    
 
 }
 
@@ -31,6 +32,14 @@ li {
 
 /* ------------ Navigation --------------- */
 
+.main-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #F8F8F8;
+}
+
+
 .name {
     font-family: 'Patua One', serif;
     color:	#404040;
@@ -40,12 +49,14 @@ li {
     padding-top: 13px;
     margin-top: 0;
     
+    
 }
 
 
 .main-nav {
     padding: 0 1rem;  
     margin: 0;
+    
 }
 
 .main-nav-2 {
@@ -206,10 +217,12 @@ body {
     padding-bottom: 0px;
     
     
+    
 }
 
 .container {
     margin: 0 auto;
+    padding-top: 107px;
     
 }
 
@@ -393,22 +406,26 @@ footer {
     }
 
     .marketing-page, .map  {
-        width: 27%;
+        width: 33.33%;
         float: left;
 
     }
 
     .search-page, .photo-gallery {
-
-        width: 27%;
+        float: left;
+         width: 33.33%;
 
 
     }
 
      .calculator, .travel-app {
-        width: 27%;
-        float: right;
+        width: 33.33%;
+        float: left;
 
+    }
+
+    .closing-remark {
+        width: 57%;
     }
 
 

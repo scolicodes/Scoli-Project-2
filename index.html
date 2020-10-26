@@ -6,17 +6,22 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua%20One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam&effect=fire-animation|3d|shadow-multiple">
+    
 </head>
 <body>  
-    <header class="main-header clearfix"> 
-        <h1 class="name">Student Name</h1>
-        <ul class="main-nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#total-portfolio">PORTFOLIO</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>  
+    <header class="main-header clearfix">
+        <nav>
+            <h1 class="name font-effect-3d">Student Name</h1>
+            <ul class="main-nav font-effect-shadow-multiple">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#total-portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+            </ul>  
+        </nav> 
     </header>
     
     <div class="container">
@@ -34,37 +39,37 @@
             
             <div class="portfolio clearfix"> 
                 <div class="marketing-page hi">
-                    <img id="card-img" class= "img-1" src="images/portfolio-1.png" alt="Marketing Page">
+                    <img class= "img-1 card-img" src="images/portfolio-1.png" alt="Marketing Page">
                     <h2>Marketing Page</h2>
                     <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
                 </div> <!-- /.marketing-page -->
                 
                 <div class="search-page hi">
-                    <img id="card-img" class= "img-2" src="images/portfolio-2.png" alt="Search Page">
+                    <img class= "img-2 card-img" src="images/portfolio-2.png" alt="Search Page">
                     <h2>Search Page</h2>
                     <p>This project searches through a specific database to find information that the user is trying to look up.</p>
                 </div> <!-- /.search-page -->
 
                 <div class="travel-app hi">
-                    <img id="card-img" class= "img-3" src="images/portfolio-3.png" alt="Travel App">
+                    <img class= "img-3 card-img" src="images/portfolio-3.png" alt="Travel App">
                     <h2>Travel App</h2>
                     <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
                 </div> <!-- /travel-app -->
 
                 <div class="map hi">
-                    <img id="card-img" class= "img-4" src="images/portfolio-4.png" alt="Map of Favorite Spots">
+                    <img class= "img-4 card-img" src="images/portfolio-4.png" alt="Map of Favorite Spots">
                     <h2>Map of Favorite Spots</h2>
                     <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
                 </div> <!-- /map -->
                 
                 <div class="photo-gallery hi">
-                    <img id="card-img" class= "img-5" src="images/portfolio-5.png" alt="Photo Gallery">
+                    <img class= "img-5 card-img" src="images/portfolio-5.png" alt="Photo Gallery">
                     <h2>Photo Gallery</h2>
                     <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
                 </div> <!-- /photo-gallery -->
                 
                 <div class="calculator hi">
-                    <img id="card-img" class= "img-6" src="images/portfolio-6.png" alt="Calculator">
+                    <img id="card-img" class= "img-6 card-img" src="images/portfolio-6.png" alt="Calculator">
                     <h2>Calculator</h2>
                     <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
                 </div> <!-- /.calculator -->
@@ -79,16 +84,28 @@
         <p class="email">Email <b>email@yoursite.com</b></p>
     </div>
 
-    <footer class="clearfix">
+    <div id="skills" class="skills clearfix">
+        <h1 class="font-effect-fire-animation">Skills</h1>
         <ul>
-            <li class="student-name">Student name</li>
-            <li class="back-to-top">BACK TO TOP</li>
+            <li class="html">HTML</li>
+            <li class="css">CSS</li>
+            <li class="javascript">Javascript</li>
         </ul>
+        <img class="skills-img" src="images/skills.jpg" alt="Skills Image">
 
+    </div>
+
+    <footer class="clearfix">
+            <ul>
+                <li class="student-name">Student name</li>
+                <li class="back-to-top"><a href="#">BACK TO TOP</a></li>
+            </ul>
+    
         <ul class="main-nav-2">
             <li><a href="#">HOME</a></li>
             <li><a href="#total-portfolio">PORTFOLIO</a></li>
             <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
         </ul>
     </footer>   
 </body>
